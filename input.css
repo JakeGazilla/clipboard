@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-xl {
+	background-image: url("../assets/bg-header-desktop.png");
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: normal;
+}
