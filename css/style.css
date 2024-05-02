@@ -599,10 +599,6 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mb-32 {
-  margin-bottom: 8rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -772,11 +768,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -785,11 +776,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-semibold {
@@ -861,12 +847,12 @@ video {
 }
 
 @media (min-width: 976px) {
-  .lg\:ml-12 {
-    margin-left: 3rem;
-  }
-
   .lg\:mb-32 {
     margin-bottom: 8rem;
+  }
+
+  .lg\:ml-12 {
+    margin-left: 3rem;
   }
 
   .lg\:w-1\/2 {
@@ -887,14 +873,14 @@ video {
     padding-right: 9rem;
   }
 
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
